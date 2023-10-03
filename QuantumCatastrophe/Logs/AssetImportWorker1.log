@@ -15,7 +15,7 @@ C:/Users/Nekx/Documents/GitHub/Project-Quantum-Catastrophe/QuantumCatastrophe
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64128
+64378
 Successfully changed project path to: C:/Users/Nekx/Documents/GitHub/Project-Quantum-Catastrophe/QuantumCatastrophe
 C:/Users/Nekx/Documents/GitHub/Project-Quantum-Catastrophe/QuantumCatastrophe
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/Nekx/Documents/GitHub/Project-Quantum-Catastrophe/QuantumCatastrophe
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [1008] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 689522035 [EditorId] 689522035 [Version] 1048832 [Id] WindowsEditor(7,Nekx86) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [14076] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 2773187260 [EditorId] 2773187260 [Version] 1048832 [Id] WindowsEditor(7,Nekx86) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [1008] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 689522035 [EditorId] 689522035 [Version] 1048832 [Id] WindowsEditor(7,Nekx86) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14076] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 2773187260 [EditorId] 2773187260 [Version] 1048832 [Id] WindowsEditor(7,Nekx86) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 8.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 8.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.4f1 (35713cd46cd7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -69,47 +69,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009148 seconds.
-- Loaded All Assemblies, in  0.290 seconds
+Registered in 0.008443 seconds.
+- Loaded All Assemblies, in  0.269 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 204 ms
+Android Extension - Scanning For ADB Devices 219 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.460 seconds
-Domain Reload Profiling: 748ms
-	BeginReloadAssembly (75ms)
+- Finished resetting the current domain, in  0.470 seconds
+Domain Reload Profiling: 738ms
+	BeginReloadAssembly (69ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (122ms)
-		LoadAssemblies (73ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (112ms)
+		LoadAssemblies (67ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (114ms)
-			TypeCache.Refresh (113ms)
-				TypeCache.ScanAssembly (104ms)
+		AnalyzeDomain (106ms)
+			TypeCache.Refresh (105ms)
+				TypeCache.ScanAssembly (95ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (460ms)
+	FinalizeReload (470ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (415ms)
+		SetupLoadedEditorAssemblies (426ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (290ms)
+			InitializePlatformSupportModulesInManaged (306ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (80ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
+			ProcessInitializeOnLoadAttributes (79ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,51 +120,51 @@ Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Nekx\Documents\GitHub\Project-Quantum-Catastrophe\QuantumCatastrophe\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Nekx\Documents\GitHub\Project-Quantum-Catastrophe\QuantumCatastrophe\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 - Loaded All Assemblies, in  0.571 seconds
-Refreshing native plugins compatible for Editor in 3.08 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.53 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.410 seconds
-Domain Reload Profiling: 978ms
-	BeginReloadAssembly (105ms)
+- Finished resetting the current domain, in  0.417 seconds
+Domain Reload Profiling: 986ms
+	BeginReloadAssembly (104ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (389ms)
-		LoadAssemblies (209ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (391ms)
+		LoadAssemblies (216ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (224ms)
-			TypeCache.Refresh (211ms)
-				TypeCache.ScanAssembly (199ms)
-			ScanForSourceGeneratedMonoScriptInfo (10ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (410ms)
+		AnalyzeDomain (222ms)
+			TypeCache.Refresh (207ms)
+				TypeCache.ScanAssembly (196ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (418ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (296ms)
+		SetupLoadedEditorAssemblies (306ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (19ms)
+			InitializePlatformSupportModulesInManaged (21ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (52ms)
-			ProcessInitializeOnLoadAttributes (196ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (203ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 3.18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 31 unused Assets / (56.7 KB). Loaded Objects now: 3533.
 Memory consumption went from 120.9 MB to 120.8 MB.
-Total: 2.956800 ms (FindLiveObjects: 0.215000 ms CreateObjectMapping: 0.122000 ms MarkObjects: 2.526900 ms  DeleteObjects: 0.092200 ms)
+Total: 2.524400 ms (FindLiveObjects: 0.192300 ms CreateObjectMapping: 0.071400 ms MarkObjects: 2.147300 ms  DeleteObjects: 0.112600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -178,3 +178,80 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 338459.483046 seconds.
+  path: Assets/Textures/Kenny
+  artifactKey: Guid(d7f1a90b01ab5484288103acc8ad2d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Kenny using Guid(d7f1a90b01ab5484288103acc8ad2d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d6e541241a35b52b0db40d54e2a0a1') in 0.001818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.236259 seconds.
+  path: Assets/Textures/KenneyTexturePack/Dark/texture_02.png
+  artifactKey: Guid(701f2916399a075498038ab84ad01617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KenneyTexturePack/Dark/texture_02.png using Guid(701f2916399a075498038ab84ad01617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4fc9e21ec49aca864482a920494df9') in 0.050963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Textures/KenneyTexturePack/Dark/texture_13.png
+  artifactKey: Guid(1c33ed7bcdd35f04fb82b73cbdfedf33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KenneyTexturePack/Dark/texture_13.png using Guid(1c33ed7bcdd35f04fb82b73cbdfedf33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db470277979133eeaafe9fe6f015e4c') in 0.005698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Textures/KenneyTexturePack/Dark/texture_11.png
+  artifactKey: Guid(52d5b1bb896562d4ab1fbdbf365160ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KenneyTexturePack/Dark/texture_11.png using Guid(52d5b1bb896562d4ab1fbdbf365160ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c057db5fd099804576be7f92957c6439') in 0.004069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Textures/KenneyTexturePack/Dark/texture_12.png
+  artifactKey: Guid(ad4c45145456ad546ab3b48eac0ad071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KenneyTexturePack/Dark/texture_12.png using Guid(ad4c45145456ad546ab3b48eac0ad071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25cf5ddc776476ad5812c6d1071d289') in 0.004629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Textures/KenneyTexturePack/Dark/texture_07.png
+  artifactKey: Guid(912ec123340ba7e43ad3265150879ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KenneyTexturePack/Dark/texture_07.png using Guid(912ec123340ba7e43ad3265150879ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0164278c6f53f9447480ce0dc9b71f') in 0.004841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Textures/KenneyTexturePack/Dark/texture_04.png
+  artifactKey: Guid(ba34b3e866ee74c47972c6a22fa9536a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KenneyTexturePack/Dark/texture_04.png using Guid(ba34b3e866ee74c47972c6a22fa9536a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '531cf5c879b712f5a8641081fbb3bbc5') in 0.009059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 36.266368 seconds.
+  path: Assets/Textures/KenneyTexturePack/Green/texture_01.png
+  artifactKey: Guid(bfe8b6644a6b80841a68eec08a75638a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KenneyTexturePack/Green/texture_01.png using Guid(bfe8b6644a6b80841a68eec08a75638a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6950d08a93cca08615f659afcc26ea29') in 0.005555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Textures/KenneyTexturePack/Purple/texture_02.png
+  artifactKey: Guid(a88c33bb2beca2149b1b249b0fcd0e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/KenneyTexturePack/Purple/texture_02.png using Guid(a88c33bb2beca2149b1b249b0fcd0e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b8e1eba52dc0b1813dffa58efedf43') in 0.004788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Bir iþ parçacýðý çýkýþý veya bir uygulama isteði nedeniyle G/Ç iþlemi iptal edildi.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

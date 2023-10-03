@@ -1,0 +1,483 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'tr' Physical Memory: 32694 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/Nekx/Documents/GitHub/Project-Quantum-Catastrophe/QuantumCatastrophe
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+64378
+Successfully changed project path to: C:/Users/Nekx/Documents/GitHub/Project-Quantum-Catastrophe/QuantumCatastrophe
+C:/Users/Nekx/Documents/GitHub/Project-Quantum-Catastrophe/QuantumCatastrophe
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13016] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 3791743385 [EditorId] 3791743385 [Version] 1048832 [Id] WindowsEditor(7,Nekx86) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [13016] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 3791743385 [EditorId] 3791743385 [Version] 1048832 [Id] WindowsEditor(7,Nekx86) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 7.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Nekx/Documents/GitHub/Project-Quantum-Catastrophe/QuantumCatastrophe/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 590 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     8135 MB
+    Driver:   31.0.21902.5
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008351 seconds.
+- Loaded All Assemblies, in  0.305 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 221 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.489 seconds
+Domain Reload Profiling: 792ms
+	BeginReloadAssembly (78ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (132ms)
+		LoadAssemblies (76ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (126ms)
+			TypeCache.Refresh (125ms)
+				TypeCache.ScanAssembly (115ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (489ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (441ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (317ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (80ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Nekx\Documents\GitHub\Project-Quantum-Catastrophe\QuantumCatastrophe\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Nekx\Documents\GitHub\Project-Quantum-Catastrophe\QuantumCatastrophe\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.744 seconds
+Refreshing native plugins compatible for Editor in 3.14 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.439 seconds
+Domain Reload Profiling: 1181ms
+	BeginReloadAssembly (142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (512ms)
+		LoadAssemblies (293ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (286ms)
+			TypeCache.Refresh (271ms)
+				TypeCache.ScanAssembly (259ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (440ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (310ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (208ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 3.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3302 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (1.3 MB). Loaded Objects now: 3759.
+Memory consumption went from 143.5 MB to 142.2 MB.
+Total: 3.062600 ms (FindLiveObjects: 0.255400 ms CreateObjectMapping: 0.143000 ms MarkObjects: 2.360000 ms  DeleteObjects: 0.303400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/LookCamera.cs: b5f4eb7ff0146c1b277de0a4c78474a1 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 341775.267008 seconds.
+  path: Assets/Modern UI Pack/Textures/Border/Radial/32px/Radial Filled 32px.png
+  artifactKey: Guid(f9767404d707fab4398db2425e8badd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Border/Radial/32px/Radial Filled 32px.png using Guid(f9767404d707fab4398db2425e8badd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfef416f2078e9a9dca884a1fe324acd') in 0.060795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.612213 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Navigation/Arrow Down.png
+  artifactKey: Guid(6e54eaa482ea20d4fbe2b232ac925827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Icon/Navigation/Arrow Down.png using Guid(6e54eaa482ea20d4fbe2b232ac925827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a659defc9c0292f6884cb355201817') in 0.008666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Navigation/Arrow Simple Left.png
+  artifactKey: Guid(2ee190d642938fc47afab04bc120d337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Icon/Navigation/Arrow Simple Left.png using Guid(2ee190d642938fc47afab04bc120d337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b644032a056993840f95a5bf72836705') in 0.008011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.265272 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Common/Bell.png
+  artifactKey: Guid(e55e4ef66043a8747866894761ac06be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Icon/Common/Bell.png using Guid(e55e4ef66043a8747866894761ac06be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcaa6f25f2e0ac6c7a3d07308e2f2f24') in 0.006501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.142837 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Document/Book.png
+  artifactKey: Guid(f7fad078681824845adaa6aa333d9de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Icon/Document/Book.png using Guid(f7fad078681824845adaa6aa333d9de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94117e4653bea4c1ae9186c3a302b0b1') in 0.006736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.441018 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/UI Elements/Button.png
+  artifactKey: Guid(3faebebfb41380b4f8820adf0d965690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Icon/UI Elements/Button.png using Guid(3faebebfb41380b4f8820adf0d965690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51f68c3472fa59bc5191035e1955f74') in 0.006507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.149305 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Media/Camera.png
+  artifactKey: Guid(029e049b7b633af4089920f10dbf69d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Icon/Media/Camera.png using Guid(029e049b7b633af4089920f10dbf69d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b1a5e4af5eea1add71c8ab1738e16b4') in 0.006135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.120579 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Navigation/Check.png
+  artifactKey: Guid(1c1bef4b40e990c42aed6432ebd324ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Icon/Navigation/Check.png using Guid(1c1bef4b40e990c42aed6432ebd324ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0a90f035f60c5bc703a0637abf3c1b') in 0.007395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.593435 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Navigation/Close.png
+  artifactKey: Guid(88dca061d041a2a4596563e6a38f66c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Icon/Navigation/Close.png using Guid(88dca061d041a2a4596563e6a38f66c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598e77223722f32f45082ec5b6912177') in 0.007271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.246144 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Web & Cloud/Cloud Download.png
+  artifactKey: Guid(1ea85de2838985240b3462e0391af06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Icon/Web & Cloud/Cloud Download.png using Guid(1ea85de2838985240b3462e0391af06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b28a63adbb9ddb94d16c47e8e01ab0b') in 0.008597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.816236 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Weather/Cloud Filled.png
+  artifactKey: Guid(87bab8761be522443bfb6327a272a9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Icon/Weather/Cloud Filled.png using Guid(87bab8761be522443bfb6327a272a9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6192174cb7e72734691c3081d8085b') in 0.007227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.090945 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Web & Cloud/Cloud Upload Filled.png
+  artifactKey: Guid(e2c71ef013ffbe843aa024e756ff4dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Icon/Web & Cloud/Cloud Upload Filled.png using Guid(e2c71ef013ffbe843aa024e756ff4dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a60da2b447bd4b38cf175caee165998') in 0.014700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.340351 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Business & Commerce/Credit Card.png
+  artifactKey: Guid(96fc5f977dbf5fb4db0aa05d8a7c193b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Icon/Business & Commerce/Credit Card.png using Guid(96fc5f977dbf5fb4db0aa05d8a7c193b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac0bf4fc08ff768e441496914f91bca') in 0.006666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.673144 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Design/Crop.png
+  artifactKey: Guid(4a4cdd1b816f2c14e8f99597ac619de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Icon/Design/Crop.png using Guid(4a4cdd1b816f2c14e8f99597ac619de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da622785e889ea98463f33ddabf1caa3') in 0.012814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.254205 seconds.
+  path: Assets/Modern UI Pack/Textures/Demo/Demo Welcome.png
+  artifactKey: Guid(d922a2264ecd0c04987a0589859c321c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Demo/Demo Welcome.png using Guid(d922a2264ecd0c04987a0589859c321c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6852a4a3744c3118c17b67a79586e53') in 0.013006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.236938 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Business & Commerce/Diamond Coin Filled.png
+  artifactKey: Guid(4b1b86b7d41db324c891a5e0135c4510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Icon/Business & Commerce/Diamond Coin Filled.png using Guid(4b1b86b7d41db324c891a5e0135c4510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce21e20598f26359c5f1454ad41de871') in 0.007229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.363851 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Communication & Social/Discord.png
+  artifactKey: Guid(b6b68c8c37d5cf1419267a80c426ac83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Icon/Communication & Social/Discord.png using Guid(b6b68c8c37d5cf1419267a80c426ac83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50066fafab14b6e6bcecfddd159f7ea') in 0.006696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.722157 seconds.
+  path: Assets/Modern UI Pack/Textures/Shadow/Radial Shadow.png
+  artifactKey: Guid(0755a77d5bd80d94eaba57a2d5d0f55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Shadow/Radial Shadow.png using Guid(0755a77d5bd80d94eaba57a2d5d0f55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1554c9e72e59afaf198c0fdea30f8082') in 0.007572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Navigation/Search.png
+  artifactKey: Guid(6d669c2082983644b9d4a34c0b22b1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Icon/Navigation/Search.png using Guid(6d669c2082983644b9d4a34c0b22b1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c10588d89c8d97873e0bf2e6b9e386') in 0.006156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.507780 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Common/Star Filled.png
+  artifactKey: Guid(9df0f4d8c02014347ad2d7de427e0ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Icon/Common/Star Filled.png using Guid(9df0f4d8c02014347ad2d7de427e0ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2689135dbf0f07068bbc4f0650a6c0') in 0.007315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 51.654366 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Communication & Social/Steam.png
+  artifactKey: Guid(6107e3c2933aabe43ba7cd44efb0764d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Icon/Communication & Social/Steam.png using Guid(6107e3c2933aabe43ba7cd44efb0764d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08077eda30c39132879bc18a3ce11d6') in 0.013766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Weather/Sun Filled.png
+  artifactKey: Guid(7a9cefea338bab546a74e026733fa544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Icon/Weather/Sun Filled.png using Guid(7a9cefea338bab546a74e026733fa544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f698c744528deca5b35e148e62456ec7') in 0.006869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.387438 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/UI Elements/Switch.png
+  artifactKey: Guid(c03773fe82dedfa4e815f2685050213e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Icon/UI Elements/Switch.png using Guid(c03773fe82dedfa4e815f2685050213e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ee1a55d13955bd23f56975ac1449f7') in 0.007315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.453061 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/UI Elements/Toggle.png
+  artifactKey: Guid(20f1f3b1b41ffb0408544ed98dae6591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Icon/UI Elements/Toggle.png using Guid(20f1f3b1b41ffb0408544ed98dae6591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b882b339f8089cc18fbd11a05edd9e') in 0.007049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.383530 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/System/Trash.png
+  artifactKey: Guid(8c998213d53883d4b8fdf7a3eb3c2909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Icon/System/Trash.png using Guid(8c998213d53883d4b8fdf7a3eb3c2909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44bac37b3014acf6dc714cfe26679a07') in 0.010785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.100243 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Reward/Trophy.png
+  artifactKey: Guid(65a1928224b8541439b433a52ea9c3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Icon/Reward/Trophy.png using Guid(65a1928224b8541439b433a52ea9c3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cce39005c70eef90e6058aaf483e37b') in 0.007335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.515246 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Communication & Social/Twitter.png
+  artifactKey: Guid(1b35732bebfbd224abab7e97ebeb6d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Icon/Communication & Social/Twitter.png using Guid(1b35732bebfbd224abab7e97ebeb6d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9b7f6a56057a709f77ce412e5a2608') in 0.008189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.415493 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Communication & Social/User.png
+  artifactKey: Guid(54480c8535d545149b22ee8bfcaad6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Icon/Communication & Social/User.png using Guid(54480c8535d545149b22ee8bfcaad6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc41bd7ca5b8bb69eeb11559fc40e9a') in 0.006873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.427524 seconds.
+  path: Assets/Modern UI Pack/Textures/Shadow/Vertical Shadow.png
+  artifactKey: Guid(4588d5e6aeea92d4b86bd1e976c99baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Shadow/Vertical Shadow.png using Guid(4588d5e6aeea92d4b86bd1e976c99baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a7b077b90cb1099b5db2d895397a6ee') in 0.014225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.162662 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Media/Video Filled.png
+  artifactKey: Guid(9dc58fb07aa97b1489201500cf80db2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Icon/Media/Video Filled.png using Guid(9dc58fb07aa97b1489201500cf80db2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc3e2b34f8ede7bd1ae6a260ab5f7a1') in 0.006206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.151516 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Navigation/Warning Filled.png
+  artifactKey: Guid(d8781abacd35da0418c7bc7644d51c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Icon/Navigation/Warning Filled.png using Guid(d8781abacd35da0418c7bc7644d51c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8728e41b5fbc01cc4ec3779a97017a1') in 0.013750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.033406 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Map/World.png
+  artifactKey: Guid(aee454fcb90274c42b8096a03bf7a1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Icon/Map/World.png using Guid(aee454fcb90274c42b8096a03bf7a1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448741f880f41fbbc2d2c75cca8f13e2') in 0.007405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.066603 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Communication & Social/YouTube.png
+  artifactKey: Guid(adcfd88c3af8d374791e42d825351485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Icon/Communication & Social/YouTube.png using Guid(adcfd88c3af8d374791e42d825351485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '490da588372ac8cfec8c502c8a594c2f') in 0.006819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 20.906664 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/System/Settings Filled.png
+  artifactKey: Guid(ce4f0f0804dfd3b4a84ad79898a71fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Icon/System/Settings Filled.png using Guid(ce4f0f0804dfd3b4a84ad79898a71fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6108fa79a5b9562f71c3422f84fe9486') in 0.017055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 35.229740 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Communication & Social/Share Filled.png
+  artifactKey: Guid(a959490f29e2bcb478c66b5681b8f143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Icon/Communication & Social/Share Filled.png using Guid(a959490f29e2bcb478c66b5681b8f143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b652e9da57660dffdbfdd0622710716c') in 0.007170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/System/Shield.png
+  artifactKey: Guid(138796f6771a1ba4c9a72797e7dabeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Icon/System/Shield.png using Guid(138796f6771a1ba4c9a72797e7dabeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feebc082c250b64f04f7d7e4f5f88f48') in 0.007805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/System/Shield Filled.png
+  artifactKey: Guid(ee89da2a565758d4595b8420fed74506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Icon/System/Shield Filled.png using Guid(ee89da2a565758d4595b8420fed74506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba14db696f948a61a8b868e04b72d74') in 0.005810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Bir iþ parçacýðý çýkýþý veya bir uygulama isteði nedeniyle G/Ç iþlemi iptal edildi.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
