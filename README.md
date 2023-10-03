@@ -32,5 +32,34 @@ Bu oyun, **NDX64 Entertainment** tarafından geliştirilmektedir. Oyunun açık 
 
 Bu oyun **CC BY-NC 4.0** altında lisanslanmıştır.
 
+## Kullanılan Assetler & Diğer Öğeler
+**Asset Paket Listesi**
+
+**Müzikler**
+Nitro Fun - New Game [Monstercat Release] 
+Tokyo Machine - Turbo [Monstercat Release] 
+
+**Support on Nitro Fun**
+▼ Follow Nitro Fun:
+Facebook: http://www.facebook.com/NitroFunOfficial
+Soundcloud: http://soundcloud.com/nitrofun
+YouTube: https://www.youtube.com/nitrofunofficial
+
+**Support on Tokyo Machine**
+▼ Follow Tokyo Machine
+Facebook: https://facebook.com/tokyomachine
+Twitter: https://twitter.com/tokyomachine
+Instagram: https://instagram.com/tokyomachine
+SoundCloud: https://soundcloud.com/tokyomachine
+YouTube: https://www.youtube.com/tokyomachine
+
+**Support on Monstercat**
+▼ Follow Monstercat
+Spotify: https://monster.cat/2biZbkd
+Apple: https://apple.co/2xiKWTO
+Facebook: https://facebook.com/monstercat
+Twitter: https://twitter.com/monstercat
+Instagram: https://instagram.com/monstercat
+ 
 ---
 © **NDX64 Entertainment**
