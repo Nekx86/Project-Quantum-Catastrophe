@@ -1,6 +1,6 @@
 # Quantum Catastrophe
 
-![Oyun Logo](link-to-your-game-logo.png)
+![Oyun Logo](GameLogo/gamelogo.png)
 
 ## Oyun Hakkında
 
