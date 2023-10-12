@@ -15,7 +15,7 @@ C:/Users/Nekx/Documents/GitHub/Project-Quantum-Catastrophe/QuantumCatastrophe
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57512
+55606
 Successfully changed project path to: C:/Users/Nekx/Documents/GitHub/Project-Quantum-Catastrophe/QuantumCatastrophe
 C:/Users/Nekx/Documents/GitHub/Project-Quantum-Catastrophe/QuantumCatastrophe
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/Nekx/Documents/GitHub/Project-Quantum-Catastrophe/QuantumCatastrophe
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [22392] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 885438691 [EditorId] 885438691 [Version] 1048832 [Id] WindowsEditor(7,Nekx86) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [11928] Host "[IP] 192.168.1.35 [Port] 0 [Flags] 2 [Guid] 1024329268 [EditorId] 1024329268 [Version] 1048832 [Id] WindowsEditor(7,Nekx86) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [22392] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 885438691 [EditorId] 885438691 [Version] 1048832 [Id] WindowsEditor(7,Nekx86) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11928] Host "[IP] 192.168.1.35 [Port] 0 [Flags] 2 [Guid] 1024329268 [EditorId] 1024329268 [Version] 1048832 [Id] WindowsEditor(7,Nekx86) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 7.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 9.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.4f1 (35713cd46cd7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -69,47 +69,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007909 seconds.
-- Loaded All Assemblies, in  0.284 seconds
+Registered in 0.012251 seconds.
+- Loaded All Assemblies, in  0.371 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 216 ms
+Android Extension - Scanning For ADB Devices 246 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.477 seconds
-Domain Reload Profiling: 760ms
-	BeginReloadAssembly (73ms)
+- Finished resetting the current domain, in  0.558 seconds
+Domain Reload Profiling: 927ms
+	BeginReloadAssembly (92ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (120ms)
-		LoadAssemblies (70ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (167ms)
+		LoadAssemblies (90ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (114ms)
-			TypeCache.Refresh (113ms)
-				TypeCache.ScanAssembly (104ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (158ms)
+				TypeCache.ScanAssembly (145ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (478ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (558ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (430ms)
+		SetupLoadedEditorAssemblies (498ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (307ms)
+			InitializePlatformSupportModulesInManaged (359ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (80ms)
-			ProcessInitializeOnLoadMethodAttributes (37ms)
+			ProcessInitializeOnLoadAttributes (89ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -119,125 +119,53 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Nekx\Documents\GitHub\Project-Quantum-Catastrophe\QuantumCatastrophe\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Nekx\Documents\GitHub\Project-Quantum-Catastrophe\QuantumCatastrophe\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.604 seconds
-Refreshing native plugins compatible for Editor in 2.97 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.780 seconds
+Refreshing native plugins compatible for Editor in 4.00 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.447 seconds
-Domain Reload Profiling: 1047ms
-	BeginReloadAssembly (117ms)
+- Finished resetting the current domain, in  0.509 seconds
+Domain Reload Profiling: 1285ms
+	BeginReloadAssembly (127ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (11ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (8ms)
 	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (402ms)
-		LoadAssemblies (230ms)
+	LoadAllAssembliesAndSetupDomain (572ms)
+		LoadAssemblies (249ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (228ms)
-			TypeCache.Refresh (214ms)
-				TypeCache.ScanAssembly (202ms)
-			ScanForSourceGeneratedMonoScriptInfo (11ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (447ms)
+		AnalyzeDomain (376ms)
+			TypeCache.Refresh (353ms)
+				TypeCache.ScanAssembly (336ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (509ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (323ms)
+		SetupLoadedEditorAssemblies (358ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (19ms)
+			InitializePlatformSupportModulesInManaged (23ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (64ms)
-			ProcessInitializeOnLoadAttributes (213ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (244ms)
 			ProcessInitializeOnLoadMethodAttributes (16ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.89 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3302 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (1.3 MB). Loaded Objects now: 3759.
-Memory consumption went from 143.4 MB to 142.2 MB.
-Total: 3.360900 ms (FindLiveObjects: 0.232000 ms CreateObjectMapping: 0.128200 ms MarkObjects: 2.674800 ms  DeleteObjects: 0.325200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 75627.211574 seconds.
-  path: Assets/Scenes/NewSceneTemplatePipeline.cs
-  artifactKey: Guid(b4a64008201261d43838f3730afd4c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/NewSceneTemplatePipeline.cs using Guid(b4a64008201261d43838f3730afd4c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528c9db86667a458fa5ce647a57f570c') in 0.002149 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Nekx\Documents\GitHub\Project-Quantum-Catastrophe\QuantumCatastrophe\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Nekx\Documents\GitHub\Project-Quantum-Catastrophe\QuantumCatastrophe\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.594 seconds
-Refreshing native plugins compatible for Editor in 3.19 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.701 seconds
-Domain Reload Profiling: 1292ms
-	BeginReloadAssembly (134ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (391ms)
-		LoadAssemblies (229ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (220ms)
-			TypeCache.Refresh (214ms)
-				TypeCache.ScanAssembly (204ms)
-			ScanForSourceGeneratedMonoScriptInfo (2ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (702ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (269ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (50ms)
-			ProcessInitializeOnLoadAttributes (170ms)
-			ProcessInitializeOnLoadMethodAttributes (15ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 3.19 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 3.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3253 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (1.3 MB). Loaded Objects now: 3762.
-Memory consumption went from 131.7 MB to 130.4 MB.
-Total: 3.395000 ms (FindLiveObjects: 0.250100 ms CreateObjectMapping: 0.164300 ms MarkObjects: 2.698400 ms  DeleteObjects: 0.281600 ms)
+Unloading 3303 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (1.3 MB). Loaded Objects now: 3760.
+Memory consumption went from 143.5 MB to 142.2 MB.
+Total: 3.695800 ms (FindLiveObjects: 0.227400 ms CreateObjectMapping: 0.083700 ms MarkObjects: 3.049700 ms  DeleteObjects: 0.334100 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -252,89 +180,94 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.292600 seconds.
-  path: Assets/Scenes/Level0.unity
-  artifactKey: Guid(02a47839a5b3d374ea5af80f7a694023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level0.unity using Guid(02a47839a5b3d374ea5af80f7a694023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85688818d758936a398c2e8036cb2118') in 0.001571 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2677.307611 seconds.
-  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/IconMap/AnimatorMessageListener@32x.png
-  artifactKey: Guid(9059e055aa673b3469a5c2896c0b8fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/IconMap/AnimatorMessageListener@32x.png using Guid(9059e055aa673b3469a5c2896c0b8fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b948af8c0564bca7a85141d9f297b982') in 0.047212 seconds
+  Time since last request: 87530.213166 seconds.
+  path: Assets/Textures/Tokyo_Machine.png
+  artifactKey: Guid(631e83f2e0c476441a8dc7b0ba104737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Tokyo_Machine.png using Guid(631e83f2e0c476441a8dc7b0ba104737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab21fa712bbfe7da63382a9429598920') in 0.047321 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 4.328723 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine.psd
-  artifactKey: Guid(8bc445bb79654bf496c92d0407840a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine.psd using Guid(8bc445bb79654bf496c92d0407840a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332ee6e3ebe72f3470e5e2e067a05caf') in 0.007124 seconds
+  Time since last request: 0.000153 seconds.
+  path: Assets/Textures/Nitro_Fun.png
+  artifactKey: Guid(2bad0f3dcb2134a4081af621994a3ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Nitro_Fun.png using Guid(2bad0f3dcb2134a4081af621994a3ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34de37dc8b02ccbfb3850d0ba766afb2') in 0.005858 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine.psd
-  artifactKey: Guid(0d9a36012a224080966c7b55896aa0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine.psd using Guid(0d9a36012a224080966c7b55896aa0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e7d0de229f8ba7a7e5a839fc8e7a2f') in 0.005232 seconds
+  Time since last request: 4.611298 seconds.
+  path: Assets/Textures/Tokyo_Machine.png
+  artifactKey: Guid(631e83f2e0c476441a8dc7b0ba104737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Tokyo_Machine.png using Guid(631e83f2e0c476441a8dc7b0ba104737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02853ddd68c1da73a25390d9c7986cc8') in 0.004269 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter.psd
-  artifactKey: Guid(81ed8c76d2bc4a4c95d092c98af4e58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter.psd using Guid(81ed8c76d2bc4a4c95d092c98af4e58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e83f40b1c662bbc69e64bf070567a1f') in 0.007729 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine_Light.psd
-  artifactKey: Guid(49679f302ac6408697f6b9314a38985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine_Light.psd using Guid(49679f302ac6408697f6b9314a38985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d335c5da1c898b11ff384947af833aa') in 0.004886 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.196476 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo_Light.psd
-  artifactKey: Guid(35ff0937876540d3bd4b6a941df62a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo_Light.psd using Guid(35ff0937876540d3bd4b6a941df62a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348fe6e5e9c474233108c2c466a52912') in 0.004901 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignLeft_Light.psd
-  artifactKey: Guid(12736c98af174f91827a26b66d2b01b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignLeft_Light.psd using Guid(12736c98af174f91827a26b66d2b01b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4062e3f8a81284033a36c2c8daae5ea8') in 0.006109 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 2.031027 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMiddle_Light.psd
-  artifactKey: Guid(066619c9c9c84f89acb1b48c11a7efe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMiddle_Light.psd using Guid(066619c9c9c84f89acb1b48c11a7efe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9f8dcc6b86c434bb0478eb714e4576') in 0.006519 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.217093 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignRight_Light.psd
-  artifactKey: Guid(e05ace3bd15740cda0bad60d89092a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignRight_Light.psd using Guid(e05ace3bd15740cda0bad60d89092a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02db69d00eefee3e827a9b13766c0d7') in 0.007410 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.081466 seconds.
-  path: Assets/Modern UI Pack/Textures/Icon/Device/Lightbulb.png
-  artifactKey: Guid(6ca804909faea644aa355ec5c5a9e1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern UI Pack/Textures/Icon/Device/Lightbulb.png using Guid(6ca804909faea644aa355ec5c5a9e1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2ffb35d8fdc28715aa9255e4e741d5') in 0.025813 seconds
+  Time since last request: 8.104935 seconds.
+  path: Assets/Textures/Tokyo_Machine.png
+  artifactKey: Guid(631e83f2e0c476441a8dc7b0ba104737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Tokyo_Machine.png using Guid(631e83f2e0c476441a8dc7b0ba104737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c611bb9125544fb2c00a1f6b068b381e') in 0.020831 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 8.882371 seconds.
+  path: Assets/Textures/MonsterCat.png
+  artifactKey: Guid(73901a3c6d1d3524fbe7e93d33ffcc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/MonsterCat.png using Guid(73901a3c6d1d3524fbe7e93d33ffcc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482950961f04bb2adf44d3e6b3a851e2') in 0.010134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 43.611803 seconds.
+  path: Assets/Materials/Flama1.mat
+  artifactKey: Guid(38f77fc391e29fd47a1261a3c11456bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Flama1.mat using Guid(38f77fc391e29fd47a1261a3c11456bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '737e2c726e4caa224e2c216b7342412b') in 0.040038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.405434 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Business & Commerce/Money.png
+  artifactKey: Guid(87258a2e98839004986e33d9a04e825e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Icon/Business & Commerce/Money.png using Guid(87258a2e98839004986e33d9a04e825e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2770266a3bdcd9c6188834edb85688d7') in 0.007810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Modern UI Pack/Textures/Icon/Device/Monitor Filled.png
+  artifactKey: Guid(f74e44b59b87aa04ab56788493e3ad3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Textures/Icon/Device/Monitor Filled.png using Guid(f74e44b59b87aa04ab56788493e3ad3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c887c8eadd17f491f4d853e3f5d699') in 0.007213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 34.548327 seconds.
+  path: Assets/Textures/RayTexture/Ch44_1001_Emissive.png
+  artifactKey: Guid(b593de40003cc19448b349f004676ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/RayTexture/Ch44_1001_Emissive.png using Guid(b593de40003cc19448b349f004676ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a89e5440369cb3c7b5788803c1d67d') in 0.009361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 256.047159 seconds.
+  path: Assets/Modern UI Pack/Editor/Icons/EditorModalWindow.png
+  artifactKey: Guid(443b1643bec077e478f70a7a0fd1adcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Editor/Icons/EditorModalWindow.png using Guid(443b1643bec077e478f70a7a0fd1adcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0aef6a9622ffeb27611ec539a35280a') in 0.006971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7767da5b68763b6f40509ec51400a283') in 0.006929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Bir iþ parçacýðý çýkýþý veya bir uygulama isteði nedeniyle G/Ç iþlemi iptal edildi.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
