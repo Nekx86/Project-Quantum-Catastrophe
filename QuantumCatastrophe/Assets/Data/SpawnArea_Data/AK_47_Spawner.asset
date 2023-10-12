@@ -15,4 +15,4 @@ MonoBehaviour:
   ItemGroup: 0
   ItemName: 
   ItemCount: 0
-  ItemPrefab: {fileID: 0}
+  ItemPrefab: {fileID: 5795588973566998038, guid: daee5761fae6d6c4baa3d586a2b40bed, type: 3}
