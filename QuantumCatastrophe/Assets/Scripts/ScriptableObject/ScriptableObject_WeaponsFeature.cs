@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 [CreateAssetMenu(fileName ="Quantum Weapon Tool",menuName ="QuantumTools/Create a Weapon Object")]
 public class ScriptableObject_WeaponsFeature : ScriptableObject
@@ -16,5 +17,8 @@ public class ScriptableObject_WeaponsFeature : ScriptableObject
     public int MagazineSize;
     public int CurrentAmmo;
     public float Range;
+    public AudioClip WeaponSound;
+    public GameObject ParticleEffect;
     public WeaponType Type;
+
 }

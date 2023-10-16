@@ -7,13 +7,13 @@ public class SpawnManager : MonoBehaviour
 {
     public List<ItemScriptableObject> SpawnableObjects;
     public float SpawnInterval = 15f;
+    [SerializeField] private string _itemType;
    [SerializeField] private GameObject _currentObject;
     private float _spawnTimer;
     private bool _isObjectTaken = false;
     [SerializeField] private Transform _transform;
     private void Awake()
     {
-        Debug.Log(this.gameObject.transform.GetChild(2).name);
         _transform = this.gameObject.transform.GetChild(2).transform;
     }
     private void Update()
@@ -38,11 +38,29 @@ public class SpawnManager : MonoBehaviour
         _currentObject.transform.SetParent(_transform.transform);
         _currentObject.AddComponent<WeaponSpawnAnimation>();
         _currentObject.AddComponent<ItemRotationAnimation>();
+        _itemType = SpawnableObjects[RandomIndex].ItemGroup.ToString();
+        AddCustomComponent(SpawnableObjects[RandomIndex].ItemGroup);
 
+    }
+    private void AddCustomComponent(ItemScriptableObject.ItemType ItemBase)
+    {
+        if (ItemBase == ItemScriptableObject.ItemType.Weapons)
+        {
+            _currentObject.AddComponent<GunScript>();
+        }
+        else if (ItemBase == ItemScriptableObject.ItemType.Powers)
+        {
+            
+        }
+        else if (ItemBase == ItemScriptableObject.ItemType.ConsumableItems)
+        {
+
+        }
     }
     public void ObjectTaken()
     {
-        _isObjectTaken = true; 
+        _isObjectTaken = true;
+        Destroy(_currentObject.gameObject);
         StartCoroutine(RespawnObject());
     }
     IEnumerator RespawnObject()

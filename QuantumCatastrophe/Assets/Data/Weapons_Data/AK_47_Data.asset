@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 081e71fe540e3b84bb116b7aa0c4262f, type: 3}
   m_Name: AK_47_Data
   m_EditorClassIdentifier: 
-  WeaponName: 
-  Damage: 0
-  FireRate: 0
-  MagazineSize: 0
-  CurrentAmmo: 0
-  Range: 0
-  Type: 0
+  WeaponName: AK_47
+  Damage: 50
+  FireRate: 3
+  MagazineSize: 30
+  CurrentAmmo: 30
+  Range: 5
+  WeaponSound: {fileID: 0}
+  ParticleEffect: {fileID: 0}
+  Type: 2
