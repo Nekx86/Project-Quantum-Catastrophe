@@ -63,6 +63,9 @@ Bu oyun **CC BY-NC 4.0** altında lisanslanmıştır.
 - Facebook: https://facebook.com/monstercat
 - Twitter: https://twitter.com/monstercat
 - Instagram: https://instagram.com/monstercat
- 
+
+ **Support on Chompo**
+- Twitter: http://twitter.com/CHOMPOCHOMPO
+- Youtube: https://www.youtube.com/channel/UCA7GRAPzJxIpH2nf7zxZifw
 ---
 © **NDX64 Entertainment**
