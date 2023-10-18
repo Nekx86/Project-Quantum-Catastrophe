@@ -15,6 +15,7 @@ public class ScriptableObject_WeaponsFeature : ScriptableObject
     public int Damage;
     public float FireRate;
     public int MagazineSize;
+    public int AvailableAmmo;
     public int CurrentAmmo;
     public float Range;
     public AudioClip WeaponSound;

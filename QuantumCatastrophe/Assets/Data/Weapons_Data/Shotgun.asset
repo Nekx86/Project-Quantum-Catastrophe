@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 081e71fe540e3b84bb116b7aa0c4262f, type: 3}
+  m_Name: Shotgun
+  m_EditorClassIdentifier: 
+  WeaponName: Shotgun_Nova
+  Damage: 70
+  FireRate: 0.5
+  MagazineSize: 60
+  AvailableAmmo: 7
+  CurrentAmmo: 7
+  Range: 3
+  WeaponSound: {fileID: 0}
+  ParticleEffect: {fileID: 0}
+  Type: 1

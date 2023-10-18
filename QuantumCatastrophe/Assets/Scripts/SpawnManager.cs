@@ -7,8 +7,8 @@ public class SpawnManager : MonoBehaviour
 {
     public List<ItemScriptableObject> SpawnableObjects;
     public float SpawnInterval = 15f;
-    [SerializeField] private string _itemType;
-   [SerializeField] private GameObject _currentObject;
+    [HideInInspector] public string ItemType;
+  [HideInInspector] public GameObject CurrentObject;
     private float _spawnTimer;
     private bool _isObjectTaken = false;
     [SerializeField] private Transform _transform;
@@ -18,7 +18,7 @@ public class SpawnManager : MonoBehaviour
     }
     private void Update()
     {
-        if (_currentObject == null || _isObjectTaken)
+        if (CurrentObject == null || _isObjectTaken)
         {
             _spawnTimer += Time.deltaTime;
             if (_spawnTimer >= SpawnInterval)
@@ -34,11 +34,11 @@ public class SpawnManager : MonoBehaviour
     {
         int RandomIndex = Random.Range(0,SpawnableObjects.Count);
         GameObject objectToSpawn = SpawnableObjects[RandomIndex].ItemPrefab;
-        _currentObject = Instantiate(objectToSpawn, _transform.position, Quaternion.identity);
-        _currentObject.transform.SetParent(_transform.transform);
-        _currentObject.AddComponent<WeaponSpawnAnimation>();
-        _currentObject.AddComponent<ItemRotationAnimation>();
-        _itemType = SpawnableObjects[RandomIndex].ItemGroup.ToString();
+        CurrentObject = Instantiate(objectToSpawn, _transform.position, Quaternion.identity);
+        CurrentObject.transform.SetParent(_transform.transform);
+        CurrentObject.AddComponent<WeaponSpawnAnimation>();
+        CurrentObject.AddComponent<ItemRotationAnimation>();
+        ItemType = SpawnableObjects[RandomIndex].ItemGroup.ToString();
         AddCustomComponent(SpawnableObjects[RandomIndex].ItemGroup);
 
     }
@@ -46,7 +46,7 @@ public class SpawnManager : MonoBehaviour
     {
         if (ItemBase == ItemScriptableObject.ItemType.Weapons)
         {
-            _currentObject.AddComponent<GunScript>();
+            CurrentObject.AddComponent<GunScript>();
         }
         else if (ItemBase == ItemScriptableObject.ItemType.Powers)
         {
@@ -60,7 +60,7 @@ public class SpawnManager : MonoBehaviour
     public void ObjectTaken()
     {
         _isObjectTaken = true;
-        Destroy(_currentObject.gameObject);
+        Destroy(CurrentObject.gameObject);
         StartCoroutine(RespawnObject());
     }
     IEnumerator RespawnObject()
