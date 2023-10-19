@@ -8,6 +8,7 @@ public class SpawnManager : MonoBehaviour
     public List<ItemScriptableObject> SpawnableObjects;
     public float SpawnInterval = 15f;
     [HideInInspector] public string ItemType;
+    [HideInInspector] public int CountSize;
   [HideInInspector] public GameObject CurrentObject;
     private float _spawnTimer;
     private bool _isObjectTaken = false;
@@ -39,6 +40,7 @@ public class SpawnManager : MonoBehaviour
         CurrentObject.AddComponent<WeaponSpawnAnimation>();
         CurrentObject.AddComponent<ItemRotationAnimation>();
         ItemType = SpawnableObjects[RandomIndex].ItemGroup.ToString();
+        CountSize = SpawnableObjects[RandomIndex].ItemCount;
         AddCustomComponent(SpawnableObjects[RandomIndex].ItemGroup);
 
     }
@@ -54,7 +56,8 @@ public class SpawnManager : MonoBehaviour
         }
         else if (ItemBase == ItemScriptableObject.ItemType.ConsumableItems)
         {
-
+            CurrentObject.AddComponent<AmmoBox>();
+            CurrentObject.GetComponent<AmmoBox>().AmmoCount = CountSize;
         }
     }
     public void ObjectTaken()

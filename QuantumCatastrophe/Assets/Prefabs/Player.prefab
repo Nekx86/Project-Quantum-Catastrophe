@@ -15,7 +15,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6238293454711923986
 Transform:
   m_ObjectHideFlags: 0
@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 7239535828106252318}
   - component: {fileID: 6981492544805245619}
   - component: {fileID: 5008742768564327477}
+  - component: {fileID: 8517925318899522038}
   - component: {fileID: 72525159986743962}
   - component: {fileID: 4959849201662003736}
   - component: {fileID: 8903859273846885046}
@@ -121,6 +122,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8517925318899522038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3415535212853964681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 154524b8423c1c64f89ed921479127a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: 100
+  HurtSound: {fileID: 0}
 --- !u!136 &72525159986743962
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -220,6 +235,7 @@ MonoBehaviour:
   - {fileID: 6238293454711923986}
   tagFields:
   - PickableGun
+  - PickableAmmo
 --- !u!114 &2985930497152504573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -232,7 +248,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59f40880bd60dec469e6e03693f64afc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Slots: []
+  Slots:
+  - {fileID: 4620377033826324732}
+  - {fileID: 7466430091103414820}
+  - {fileID: 1453768681948023490}
 --- !u!1 &4620377033826324732
 GameObject:
   m_ObjectHideFlags: 0
@@ -433,7 +452,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8600220381595383518
 Transform:
   m_ObjectHideFlags: 0

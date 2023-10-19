@@ -23,7 +23,7 @@ public class GunScript : MonoBehaviour
     private float fireTimer = 0f;
     private void Awake()
     {
-      
+
         _WeaponOptions = GetComponent<GunData>();
         this.gameObject.name = _WeaponOptions.WeaponData.WeaponName;
         WeaponDamage = _WeaponOptions.WeaponData.Damage;
@@ -34,13 +34,19 @@ public class GunScript : MonoBehaviour
         _particleEffect = _WeaponOptions.WeaponData.ParticleEffect;
         _audioClip = _WeaponOptions.WeaponData.WeaponSound;
         _Muzzle = this.gameObject.transform.GetChild(1).transform;
-       
 
+
+    }
+    public void EnableFire()
+    {
+        _isPlayerOwned = true;
+      
     }
     private void Update()
     {
         if (_isPlayerOwned)
         {
+            UIManager.instance.UpdateAmmo(WeaponCurrentAmmo, WeaponMagazineSize);
             if (canFire && Input.GetButtonDown("Fire1") && WeaponCurrentAmmo > 0)
             {
                 Shoot();
@@ -78,8 +84,9 @@ public class GunScript : MonoBehaviour
         canFire = false;
         if (_Muzzle != null)
         {
-           // Instantiate(_particleEffect, _Muzzle.position, _Muzzle.rotation);
+            // Instantiate(_particleEffect, _Muzzle.position, _Muzzle.rotation);
             //AudioSource.PlayClipAtPoint(_audioClip, _Muzzle.position);
+           
         }
     }
 }

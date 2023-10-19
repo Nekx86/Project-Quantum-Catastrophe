@@ -12,13 +12,13 @@ public class InteractScript : MonoBehaviour
     public LayerMask mask;
     public GameObject UManager;
     public Transform[] Arms;
-    private UIManager _uManager;
+  
     public List<string> tagFields;
     private bool _isDetected = false;
     private GameObject _TakeObject;
     private void Awake()
     {
-        _uManager = UManager.GetComponent<UIManager>();
+        
     }
     public void InstantiateWeapon(GameObject obj, Transform arm)
     {
@@ -34,7 +34,7 @@ public class InteractScript : MonoBehaviour
 
       
         ob.transform.localPosition = Vector3.zero;
-
+        
      
         WeaponSpawnAnimation weaponSpawnAnim = ob.GetComponent<WeaponSpawnAnimation>();
         if (weaponSpawnAnim != null)
@@ -48,6 +48,7 @@ public class InteractScript : MonoBehaviour
         {
             Destroy(itemRotationAnim);
         }
+        ob.GetComponent<GunScript>().EnableFire();
     }
     private void Update()
     {
@@ -66,11 +67,9 @@ public class InteractScript : MonoBehaviour
                     {
                         _TakeObject = hit.collider.gameObject.GetComponentInParent<SpawnManager>().CurrentObject;
                         string _type = hit.collider.gameObject.GetComponentInParent<SpawnManager>().ItemType;
-                        string _weapontype = _TakeObject.GetComponent<GunData>().WeaponData.Type.ToString();
-                        
                         if (_type == ItemScriptableObject.ItemType.Weapons.ToString())
                         {
-                          
+                            string _weapontype = _TakeObject.GetComponent<GunData>().WeaponData.Type.ToString();
                             if (_weapontype == ScriptableObject_WeaponsFeature.WeaponType.Pistol.ToString())
                             {
                                 InstantiateWeapon(_TakeObject, Arms[0]);
@@ -87,11 +86,23 @@ public class InteractScript : MonoBehaviour
                         }
                         else if (_type == ItemScriptableObject.ItemType.Powers.ToString())
                         {
+                            if (hit.collider.CompareTag("Healup"))
+                            {
+                                hit.collider.GetComponent<PowerUpManager>().Healup(this.gameObject.GetComponent<PlayerHealthSystem>());
+                            }
+                            else if (hit.collider.CompareTag("Blind"))
+                            {
+                                hit.collider.GetComponent<PowerUpManager>();
+                            }
+                            else if (hit.collider.CompareTag("ExtraDamage"))
+                            {
+                                hit.collider.GetComponent<PowerUpManager>().ExtraDamage(this.gameObject.GetComponentInChildren<GunScript>());
+                            }
 
                         }
                         else if (_type == ItemScriptableObject.ItemType.ConsumableItems.ToString())
                         {
-
+                            hit.collider.gameObject.GetComponent<AmmoBox>().AmmoGive(this.transform);
                         }
                         hit.collider.gameObject.GetComponentInParent<SpawnManager>().ObjectTaken();
                        
@@ -106,7 +117,7 @@ public class InteractScript : MonoBehaviour
         {
             _isDetected = false;
         }
-        _uManager.Crosshair_DetechPickableObject(this._isDetected);
+        UIManager.instance.Crosshair_DetechPickableObject(this._isDetected);
     }
    
     private void OnDrawGizmos()

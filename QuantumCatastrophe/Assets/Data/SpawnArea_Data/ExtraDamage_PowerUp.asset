@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e6b2ac76cb8b3340972f599315aab69, type: 3}
+  m_Name: ExtraDamage_PowerUp
+  m_EditorClassIdentifier: 
+  ItemGroup: 1
+  ItemName: ExtraDamage_Powers
+  ItemCount: 1
+  ItemPrefab: {fileID: 8456583354274762581, guid: 8138963b8315eec4f95326f2c5f4b04b, type: 3}

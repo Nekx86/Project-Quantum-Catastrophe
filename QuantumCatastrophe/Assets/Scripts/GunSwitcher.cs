@@ -19,6 +19,7 @@ public class GunSwitcher : MonoBehaviour
             Slots[_currentIndex].SetActive(false);
             Slots[newIndex].SetActive(true);
             _currentIndex = newIndex;
+            UIManager.instance.UpdateArmUI(newIndex);
         }
         else
         {
@@ -38,15 +39,17 @@ public class GunSwitcher : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             SwitchGun(0);
+           
         }
         else if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             SwitchGun(1);
+          
         }
         else if (Input.GetKeyDown(KeyCode.Alpha3))
         {
-
             SwitchGun(2);
+           
         }
     }
 }
