@@ -11,15 +11,17 @@ public class PlayerHealthSystem : MonoBehaviour
 
     private void Update()
     {
-        UIManager.instance.UpdateHealth(Health);
+       
         if (Health <= 0)
         {
+            Health = 0;
             Die();
         }
         if (Health > 100)
         {
             Health = 100;
         }
+        UIManager.instance.UpdateHealth(Health);
     }
     public void TakeDamage(int damage)
     {
@@ -27,6 +29,7 @@ public class PlayerHealthSystem : MonoBehaviour
     }
     public void Die()
     {
-
+        this.gameObject.GetComponent<PlayerCameraController>().enabled = false;
+        UIManager.instance.ShowDieMenu();
     }
 }

@@ -8,40 +8,49 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
     public GameObject Enemies;
-    private int _currentLevelIndex = 0;
+    public GameObject Player;
+    private static int _currentLevelIndex = 0;
     private int _needkill; // Sonraki level için gerekli kill sayýsý 
-    private int _playerkill;
+    public int Playerkill;
     private void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
+          
         }
-        else
-        {
-            Destroy(gameObject);
-        }
+       
     }
     private void Start()
     {
+        AudioManager.instance.PlayBG();
+        Time.timeScale = 1;
+        _currentLevelIndex = SceneManager.GetActiveScene().buildIndex;
         _needkill = Enemies.transform.childCount;
-        _playerkill = 0;
+        Playerkill = 0;
     }
     [SerializeField] int EnemyCount;
     private void UpdateEnemyCount()
     {
         EnemyCount = Enemies.transform.childCount;
+       
     }
     public int OneEnemyDown()
     {
-      return _playerkill += 1;
+      return Playerkill += 1;
     }
+    public static void RestartLevel()
+    {
+
+        SceneManager.LoadScene(_currentLevelIndex);
+
+    }
+  
     public void NextLevel()
     {
-        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        int nextSceneIndex = currentSceneIndex + 1;
-        if (_playerkill >= _needkill)
+     
+        int nextSceneIndex = _currentLevelIndex + 1;
+        if (Playerkill >= _needkill)
         {
             SceneManager.LoadScene(nextSceneIndex);
         }
@@ -50,21 +59,40 @@ public class GameManager : MonoBehaviour
             Debug.Log("Þartlar Karþýlanmadý!");
         }
     }
-
+    public void GoToMainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+    public void NewGame()
+    {
+        SceneManager.LoadScene("Level0");
+    }
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
     // Update is called once per frame
     void Update()
     {
         UpdateEnemyCount();
         UIManager.instance.UpdateEnemyCount(EnemyCount);
+        if (EnemyCount <= 0)
+        {
+            UIManager.instance.ShowWinMenu();
+            Player.GetComponent<PlayerCameraController>().enabled = false;
+         
+        }
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (UIManager.instance.CheckPause())
             {
                 UIManager.instance._showPauseMenu();
+                Player.GetComponent<PlayerCameraController>().enabled = true;
             }
             else
             {
                 UIManager.instance.ShowPauseMenu();
+                Player.GetComponent<PlayerCameraController>().enabled = false;
             }
         }
     }

@@ -15,12 +15,15 @@ public class GunScript : MonoBehaviour
     public int WeaponCurrentAmmo;
     public int MaxClipAmmo;
     [Header("Weapon Sound")]
-    [SerializeField] private AudioClip _audioClip;
+    [SerializeField] private AudioClip _audioClip_Shoot;
+    [SerializeField] private AudioClip _audioClip_Reload;
+   
     [Space(5)]
     [Header("Debug Weapon")]
     [SerializeField] private bool _isPlayerOwned;
     private bool canFire = true;
     private float fireTimer = 0f;
+   [SerializeField] private GameObject _targetEnemy;
     private void Awake()
     {
 
@@ -32,7 +35,8 @@ public class GunScript : MonoBehaviour
         WeaponMagazineSize = _WeaponOptions.WeaponData.MagazineSize;
         WeaponCurrentAmmo = _WeaponOptions.WeaponData.CurrentAmmo;
         _particleEffect = _WeaponOptions.WeaponData.ParticleEffect;
-        _audioClip = _WeaponOptions.WeaponData.WeaponSound;
+        _audioClip_Shoot = _WeaponOptions.WeaponData.WeaponSound;
+        _audioClip_Reload = _WeaponOptions.WeaponData.WeaponSound_Reload;
         _Muzzle = this.gameObject.transform.GetChild(1).transform;
 
 
@@ -46,8 +50,26 @@ public class GunScript : MonoBehaviour
     {
         if (_isPlayerOwned)
         {
+            RaycastHit hit;
+            Camera camera = Camera.main;
+            Vector3 RayOrigin = camera.transform.position;
+            Vector3 RayDirection = camera.transform.forward;
+
+            if (Physics.Raycast(RayOrigin, RayDirection, out hit, _WeaponOptions.WeaponData.Range))
+            {
+                if (hit.collider.CompareTag("Enemy"))
+                {
+                    Debug.Log("Enemy Found");
+                    _targetEnemy = hit.collider.gameObject;
+                }
+                else
+                {
+                    _targetEnemy = null;
+                }
+              
+            }
             UIManager.instance.UpdateAmmo(WeaponCurrentAmmo, WeaponMagazineSize);
-            if (canFire && Input.GetButtonDown("Fire1") && WeaponCurrentAmmo > 0)
+            if (canFire && Input.GetButton("Fire1") && WeaponCurrentAmmo > 0)
             {
                 Shoot();
             }
@@ -68,6 +90,7 @@ public class GunScript : MonoBehaviour
     }
     private void Reload()
     {
+        AudioManager.instance.PlaySound(_audioClip_Reload);
         int bulletsToReload = MaxClipAmmo - WeaponCurrentAmmo;
         int bulletsAvailable = Mathf.Min(bulletsToReload, WeaponMagazineSize);
 
@@ -78,15 +101,19 @@ public class GunScript : MonoBehaviour
         }
 
     }
+  
     private void Shoot()
     {
+        AudioManager.instance.PlaySound(_audioClip_Shoot);
         WeaponCurrentAmmo--;
-        canFire = false;
-        if (_Muzzle != null)
+        if (_targetEnemy != null)
         {
-            // Instantiate(_particleEffect, _Muzzle.position, _Muzzle.rotation);
-            //AudioSource.PlayClipAtPoint(_audioClip, _Muzzle.position);
+            _targetEnemy.GetComponent<EnemyManager>().TakeDamage(WeaponDamage);
            
         }
+
+        canFire = false;
+
+         
     }
 }

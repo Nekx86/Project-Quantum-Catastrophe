@@ -26,7 +26,7 @@ public class PowerUpManager : MonoBehaviour
         EnemyManager[] _enemies = _enemiesObject.GetComponentsInChildren<EnemyManager>();
         foreach (var enemy in _enemies)
         {
-            enemy.isBlind = true;
+            enemy.IsBlind = true;
         }
     }
 }

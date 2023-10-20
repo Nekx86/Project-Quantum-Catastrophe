@@ -9,6 +9,7 @@ TagManager:
   - Healup
   - ExtraDamage
   - Blind
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -16,7 +17,7 @@ TagManager:
   - PickableLayer
   - Water
   - UI
-  - 
+  - EnemyLayer
   - 
   - 
   - 

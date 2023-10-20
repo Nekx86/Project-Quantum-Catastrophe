@@ -12,7 +12,7 @@ public class InteractScript : MonoBehaviour
     public LayerMask mask;
     public GameObject UManager;
     public Transform[] Arms;
-  
+ 
     public List<string> tagFields;
     private bool _isDetected = false;
     private GameObject _TakeObject;

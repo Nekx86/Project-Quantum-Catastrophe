@@ -4,41 +4,45 @@ using UnityEngine;
 
 public class EnemyManager : MonoBehaviour
 {
-    public int maxHealth = 100;
-    public float currentHealth;
-    public int damage = 10;
-    public float missChance = 0.2f;
-    public float fireRate = 2.0f;
+    public int MaxHealth = 100;
+    public float CurrentHealth;
+    public int Damage = 10;
+    public float MissChance = 0.2f;
+    public float MoveSpeed = 5.0f;
+    public float FireRate = 2.0f;
     public float RotationSpeed = 2f;
-    public Transform player;
-    public float detectionRange = 10f;
-    public float shootingRange = 5f;
-    public bool isBlind = false;
-    public float blindDuration = 5.0f;
-    private float blindTimer = 0.0f;
-    private bool canSeePlayer = false;
-    private float nextFireTime = 0.0f;
-
+    public GameObject Player;
+    public float DetectionRange = 10f;
+    public float ShootingRange = 5f;
+    public bool IsBlind = false;
+    public float BlindDuration = 5.0f;
+    public AudioClip WeaponSound;
+    public AudioClip EnemyHurtSound;
+    public AudioClip EnemyDiedSound;
+    private float _blindTimer = 0.0f;
+    private bool _canSeePlayer = false;
+    private float _nextFireTime = 0.0f;
+    public float MaxChaseDistance = 3.0f;
     private void Start()
     {
-        currentHealth = maxHealth;
+        CurrentHealth = MaxHealth;
     }
 
     private void Update()
     {
-        if (isBlind)
+        if (IsBlind)
         {
-            blindTimer += Time.deltaTime;
+            _blindTimer += Time.deltaTime;
 
-            if (blindTimer >= blindDuration)
+            if (_blindTimer >= BlindDuration)
             {
-                isBlind = false;
-                blindTimer = 0.0f;
+                IsBlind = false;
+                _blindTimer = 0.0f;
             }
         }
 
         CheckVisibility();
-        if (!isBlind)
+        if (!IsBlind)
         {
             HandleShooting();  
         }
@@ -46,14 +50,15 @@ public class EnemyManager : MonoBehaviour
 
     public void HandleShooting()
     {
-        if (canSeePlayer)
+        if (_canSeePlayer)
         {
             RotateTowardsPlayer();
-            if (Time.time >= nextFireTime && Vector3.Distance(transform.position, player.position) <= shootingRange)
+            if (Time.time >= _nextFireTime && Vector3.Distance(transform.position, Player.transform.position) <= ShootingRange)
             {
-                if (Random.value > missChance)
+                AudioManager.instance.PlaySound(WeaponSound);
+                if (Random.value > MissChance)
                 {
-                    player.GetComponent<PlayerHealthSystem>().TakeDamage(damage);
+                    Player.GetComponent<PlayerHealthSystem>().TakeDamage(Damage);
                 }
                 else
                 {
@@ -61,44 +66,53 @@ public class EnemyManager : MonoBehaviour
                 }
 
               
-                nextFireTime = Time.time + 1.0f / fireRate;
+                _nextFireTime = Time.time + 1.0f / FireRate;
             }
         }
     }
 
     public void CheckVisibility()
     {
-        float distanceToPlayer = Vector3.Distance(transform.position, player.position);
+        float distanceToPlayer = Vector3.Distance(transform.position, Player.transform.position);
 
-        if (distanceToPlayer <= detectionRange)
+        if (distanceToPlayer <= DetectionRange)
         {
-            canSeePlayer = true;
+            _canSeePlayer = true;
         }
         else
         {
-            canSeePlayer = false;
+            _canSeePlayer = false;
         }
     }
 
     public void TakeDamage(int amount)
     {
-        currentHealth -= amount;
-        if (currentHealth <= 0)
+        AudioManager.instance.PlaySound(EnemyHurtSound);
+        _canSeePlayer = true;
+        CurrentHealth -= amount;
+        if (CurrentHealth <= 0)
         {
+            AudioManager.instance.PlaySound(EnemyDiedSound);
             Die();
         }
     }
 
     void Die()
     {
+        
+        GameManager.Instance.OneEnemyDown();
         Destroy(gameObject);
     }
 
     void RotateTowardsPlayer()
     {
-        Vector3 direction = player.position - transform.position;
+        Vector3 direction = Player.transform.position - transform.position;
         direction.y = 0; 
         Quaternion rotation = Quaternion.LookRotation(direction);
-        transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * RotationSpeed); 
+        transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * RotationSpeed);
+        if (Vector3.Distance(transform.position, Player.transform.position) > MaxChaseDistance)
+        {
+            transform.Translate(Vector3.forward * MoveSpeed * Time.deltaTime);
+        }
     }
 }

@@ -19,6 +19,7 @@ public class ScriptableObject_WeaponsFeature : ScriptableObject
     public int CurrentAmmo;
     public float Range;
     public AudioClip WeaponSound;
+    public AudioClip WeaponSound_Reload;
     public GameObject ParticleEffect;
     public WeaponType Type;
 

@@ -4,28 +4,31 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using DG.Tweening;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
     public static UIManager instance;
+    [Header("Texts, Crosshair, etc")]
     public RawImage Crosshair;
-    public TMP_Text AmmoText, HealthText, EnemyCountText;
+    public TMP_Text AmmoText, HealthText, EnemyCountText,PlayerKillText;
     private int _currentIndex = 0;
     public TMP_Text[] ArmSlots;
-    public GameObject pauseMenu;
-    public float animationDuration = 0.5f;
+    [Header("Menus")]
+    public GameObject PauseMenu;
+    public GameObject DieMenu;
+    public GameObject WinMenu;
+    [Header("Animation & Pause Check")]
+    public float animationDuration = 2f;
     private bool _isPaused = false;
     void Awake()
     {
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject);
+           
         }
-        else
-        {
-            Destroy(gameObject);
-        }
+       
 
     }
     public void UpdateArmUI(int newIndex)
@@ -44,20 +47,37 @@ public class UIManager : MonoBehaviour
     }
     private void Start()
     {
-        pauseMenu.SetActive(false);
+        PauseMenu.SetActive(false);
     }
     public void Crosshair_DetechPickableObject(bool _isdetected)
     {
         if (_isdetected) { Crosshair.color = Color.red; }
         else { Crosshair.color = Color.white; }
     }
+    public void ShowDieMenu()
+    {
+        UnlockMouseCursor();
+        DieMenu.SetActive(true);
+        PlayerKillText.text = $"Killed Enemies:{GameManager.Instance.Playerkill}";
+        Time.timeScale = 0;
+        DieMenu.transform.localScale = Vector3.one;
+        DieMenu.transform.DOScale(Vector3.one, animationDuration);
+    }
+    public void ShowWinMenu()
+    {
+        UnlockMouseCursor();
+        WinMenu.SetActive(true);
+        Time.timeScale = 0;
+        WinMenu.transform.localScale = Vector3.one;
+        WinMenu.transform.DOScale(Vector3.one, animationDuration);
+    }
     public void ShowPauseMenu()
     {
         Time.timeScale = 0;
         _isPaused = true;
-        pauseMenu.SetActive(true);
-        pauseMenu.transform.localScale = Vector3.one;
-        pauseMenu.transform.DOScale(new Vector3 (20,20), animationDuration);
+        PauseMenu.SetActive(true);
+        PauseMenu.transform.localScale = Vector3.one;
+        PauseMenu.transform.DOScale(Vector3.one, animationDuration);
        UnlockMouseCursor();
     }
     private void LockMouseCursor()
@@ -77,9 +97,9 @@ public class UIManager : MonoBehaviour
     {
         _isPaused = false;
         Time.timeScale = 1;
-        pauseMenu.transform.DOScale(Vector3.zero, animationDuration).OnComplete(() =>
+        PauseMenu.transform.DOScale(Vector3.zero, animationDuration).OnComplete(() =>
         {
-            pauseMenu.SetActive(false);
+            PauseMenu.SetActive(false);
         });
         LockMouseCursor();
         

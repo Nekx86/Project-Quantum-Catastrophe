@@ -18,7 +18,8 @@ MonoBehaviour:
   MagazineSize: 200
   AvailableAmmo: 30
   CurrentAmmo: 30
-  Range: 7
-  WeaponSound: {fileID: 0}
+  Range: 10
+  WeaponSound: {fileID: 8300000, guid: 7631b25b93da43e4fa932188de00d48e, type: 3}
+  WeaponSound_Reload: {fileID: 8300000, guid: 902901e80042d19479fe64054133c3a3, type: 3}
   ParticleEffect: {fileID: 0}
   Type: 2
