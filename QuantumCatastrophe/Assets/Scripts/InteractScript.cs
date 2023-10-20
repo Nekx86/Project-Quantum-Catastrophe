@@ -92,7 +92,7 @@ public class InteractScript : MonoBehaviour
                             }
                             else if (hit.collider.CompareTag("Blind"))
                             {
-                                hit.collider.GetComponent<PowerUpManager>();
+                                hit.collider.GetComponent<PowerUpManager>().BlindEnemy();
                             }
                             else if (hit.collider.CompareTag("ExtraDamage"))
                             {

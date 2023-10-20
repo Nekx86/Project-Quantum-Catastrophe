@@ -6,6 +6,12 @@ public class PowerUpManager : MonoBehaviour
 {
     public int HealthIncreaseValue = 50;
     public int WeaponDamageValue = 15;
+    private GameObject _enemiesObject;
+
+    private void Awake()
+    {
+        _enemiesObject = GameObject.Find("Enemies");
+    }
     public void Healup(PlayerHealthSystem player)
     {
         player.Health += HealthIncreaseValue; 
@@ -15,8 +21,12 @@ public class PowerUpManager : MonoBehaviour
     {
         gun.WeaponDamage += WeaponDamageValue;
     }
-   public void BlindEnemy(EnemyManager enemyManager)
+   public void BlindEnemy()
     {
-
+        EnemyManager[] _enemies = _enemiesObject.GetComponentsInChildren<EnemyManager>();
+        foreach (var enemy in _enemies)
+        {
+            enemy.isBlind = true;
+        }
     }
 }

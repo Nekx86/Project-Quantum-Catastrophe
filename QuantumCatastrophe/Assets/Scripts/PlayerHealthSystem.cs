@@ -27,7 +27,6 @@ public class PlayerHealthSystem : MonoBehaviour
     }
     public void Die()
     {
-     
 
     }
 }
