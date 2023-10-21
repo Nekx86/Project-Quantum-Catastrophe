@@ -1,9 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
-using Unity.VisualScripting;
-using Unity.VisualScripting.Dependencies.Sqlite;
-using UnityEditor.UIElements;
 using UnityEngine;
 
 public class InteractScript : MonoBehaviour

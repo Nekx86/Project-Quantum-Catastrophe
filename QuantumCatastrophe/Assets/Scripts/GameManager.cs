@@ -45,14 +45,29 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(_currentLevelIndex);
 
     }
-  
+   private bool IsLastLevel()
+    {
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        int lastSceneIndex = SceneManager.sceneCountInBuildSettings - 1;
+
+        return currentSceneIndex == lastSceneIndex;
+    }
     public void NextLevel()
     {
-     
+
         int nextSceneIndex = _currentLevelIndex + 1;
+        
         if (Playerkill >= _needkill)
         {
-            SceneManager.LoadScene(nextSceneIndex);
+            if (IsLastLevel())
+            {
+                SceneManager.LoadScene(1);
+            }
+            else
+            {
+                SceneManager.LoadScene(nextSceneIndex);
+            }
+            
         }
         else
         {

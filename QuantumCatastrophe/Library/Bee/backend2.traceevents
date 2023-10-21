@@ -1,65 +1,252 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1697828249345017, "dur":29836, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1697828249374857, "dur":158, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1697828249375084, "dur":522, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1697828249379104, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.UnityAdditionalFile.txt" }}
-,{ "pid":12345, "tid":0, "ts":1697828249375635, "dur":9407, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1697828249385056, "dur":518, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1697828249385614, "dur":222, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1697828249385858, "dur":80, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1697828249386096, "dur":1382, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1697828249375650, "dur":9439, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1697828249385118, "dur":540, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.4f1\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1697828249385102, "dur":559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.GIModule.dll_5903520E2B96D1FF.mvfrm" }}
-,{ "pid":12345, "tid":1, "ts":1697828249385662, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1697828249375675, "dur":9451, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1697828249385142, "dur":106, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.4f1\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1697828249385250, "dur":159, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.4f1\\Editor\\Data\\Tools\\ScriptUpdater\\ApiUpdater.MovedFromExtractor.exe" }}
-,{ "pid":12345, "tid":2, "ts":1697828249385130, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.GridModule.dll_9F8FC414E09FA8D3.mvfrm" }}
-,{ "pid":12345, "tid":2, "ts":1697828249385411, "dur":189, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1697828249375698, "dur":9445, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1697828249385156, "dur":182, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.4f1\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1697828249385340, "dur":457, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.4f1\\Editor\\Data\\Tools\\ScriptUpdater\\ApiUpdater.MovedFromExtractor.exe" }}
-,{ "pid":12345, "tid":3, "ts":1697828249385147, "dur":651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.HotReloadModule.dll_69E249BBEDF8006D.mvfrm" }}
-,{ "pid":12345, "tid":3, "ts":1697828249385799, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1697828249375718, "dur":9431, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1697828249385166, "dur":369, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.4f1\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1697828249385153, "dur":423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ImageConversionModule.dll_C9EC24868BEA7158.mvfrm" }}
-,{ "pid":12345, "tid":4, "ts":1697828249385577, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1697828249375748, "dur":9407, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1697828249385165, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.4f1\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1697828249385252, "dur":95, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.4f1\\Editor\\Data\\Tools\\ScriptUpdater\\ApiUpdater.MovedFromExtractor.exe" }}
-,{ "pid":12345, "tid":5, "ts":1697828249385158, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.IMGUIModule.dll_B8C55F046F7826FE.mvfrm" }}
-,{ "pid":12345, "tid":5, "ts":1697828249385352, "dur":227, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1697828249375781, "dur":9422, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1697828249385216, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.4f1\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1697828249385272, "dur":133, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.4f1\\Editor\\Data\\Tools\\ScriptUpdater\\ApiUpdater.MovedFromExtractor.exe" }}
-,{ "pid":12345, "tid":6, "ts":1697828249385207, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.InputLegacyModule.dll_E576A29100CC4D6A.mvfrm" }}
-,{ "pid":12345, "tid":6, "ts":1697828249385407, "dur":305, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1697828249375810, "dur":9401, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1697828249385224, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.4f1\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1697828249385297, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.4f1\\Editor\\Data\\Tools\\ScriptUpdater\\ApiUpdater.MovedFromExtractor.exe" }}
-,{ "pid":12345, "tid":7, "ts":1697828249385215, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.InputModule.dll_E6DB874E1F7EB7C1.mvfrm" }}
-,{ "pid":12345, "tid":7, "ts":1697828249385407, "dur":232, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1697828249375837, "dur":9416, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1697828249385270, "dur":452, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.4f1\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1697828249385258, "dur":468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.JSONSerializeModule.dll_59E6B16F1E16500F.mvfrm" }}
-,{ "pid":12345, "tid":8, "ts":1697828249385727, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1697828249375867, "dur":9418, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1697828249385298, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.4f1\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1697828249385288, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.LocalizationModule.dll_275579A51A18F4A6.mvfrm" }}
-,{ "pid":12345, "tid":9, "ts":1697828249385395, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1697828249375894, "dur":9397, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1697828249385322, "dur":194, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.4f1\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1697828249385295, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ParticleSystemModule.dll_9CBD7D4B1FD99382.mvfrm" }}
-,{ "pid":12345, "tid":10, "ts":1697828249385519, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1697828249375920, "dur":9377, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1697828249385311, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.4f1\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1697828249385301, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.PerformanceReportingModule.dll_30AF892D4EF4839B.mvfrm" }}
-,{ "pid":12345, "tid":11, "ts":1697828249385406, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1697828249375964, "dur":9340, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1697828249385319, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.4f1\\Editor\\Data\\Managed\\UnityEngine\\UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1697828249385308, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.Physics2DModule.dll_353F7BA6B3C1DC80.mvfrm" }}
-,{ "pid":12345, "tid":12, "ts":1697828249385386, "dur":189, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1697828249390467, "dur":507, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1697889991287465, "dur":8074, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697889991295545, "dur":50, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697889991295616, "dur":312, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697889991297021, "dur":75, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1697889991295950, "dur":2544, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697889991298495, "dur":121607, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697889991420105, "dur":145, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697889991420251, "dur":78, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697889991420434, "dur":1469, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1697889991296023, "dur":2477, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697889991298501, "dur":5050, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697889991307073, "dur":740, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1697889991307816, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1697889991307912, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1697889991308166, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Nekx\\Documents\\GitHub\\Project-Quantum-Catastrophe\\QuantumCatastrophe\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697889991308259, "dur":135, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Nekx\\Documents\\GitHub\\Project-Quantum-Catastrophe\\QuantumCatastrophe\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697889991308395, "dur":129, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Nekx\\Documents\\GitHub\\Project-Quantum-Catastrophe\\QuantumCatastrophe\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697889991308526, "dur":234, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Nekx\\Documents\\GitHub\\Project-Quantum-Catastrophe\\QuantumCatastrophe\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697889991308761, "dur":210, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Nekx\\Documents\\GitHub\\Project-Quantum-Catastrophe\\QuantumCatastrophe\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697889991308973, "dur":87, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Nekx\\Documents\\GitHub\\Project-Quantum-Catastrophe\\QuantumCatastrophe\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Recorder.Base.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697889991309062, "dur":396, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Nekx\\Documents\\GitHub\\Project-Quantum-Catastrophe\\QuantumCatastrophe\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697889991309460, "dur":569, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Nekx\\Documents\\GitHub\\Project-Quantum-Catastrophe\\QuantumCatastrophe\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697889991310031, "dur":107, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Nekx\\Documents\\GitHub\\Project-Quantum-Catastrophe\\QuantumCatastrophe\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Recorder.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697889991310140, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Nekx\\Documents\\GitHub\\Project-Quantum-Catastrophe\\QuantumCatastrophe\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697889991310233, "dur":714, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Nekx\\Documents\\GitHub\\Project-Quantum-Catastrophe\\QuantumCatastrophe\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697889991311006, "dur":293, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player4f5fb85f-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1697889991307815, "dur":3623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1697889991311742, "dur":74, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697889991313419, "dur":101358, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1697889991419078, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1697889991419077, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1697889991419176, "dur":896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1697889991296060, "dur":2451, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697889991298513, "dur":891, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697889991299404, "dur":4163, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697889991303568, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nekx/Downloads/QuanTumGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1697889991308428, "dur":1624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1697889991310372, "dur":3953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697889991314382, "dur":3543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697889991318046, "dur":2885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697889991320977, "dur":2489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697889991323512, "dur":2617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697889991326185, "dur":2605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697889991328851, "dur":2820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697889991331728, "dur":2662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697889991334451, "dur":3158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697889991337664, "dur":1250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1697889991338976, "dur":58456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1697889991397477, "dur":22631, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697889991296051, "dur":2453, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697889991298508, "dur":815, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697889991299323, "dur":4239, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697889991303586, "dur":119, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1697889991303563, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nekx/Downloads/QuanTumGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1697889991305036, "dur":1507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1697889991306577, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nekx/Downloads/QuanTumGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1697889991306722, "dur":2533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1697889991309682, "dur":2452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1697889991312238, "dur":3429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697889991315739, "dur":3420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697889991319215, "dur":2755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697889991322033, "dur":2635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697889991324713, "dur":3256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697889991328038, "dur":2447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697889991330628, "dur":3077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697889991333752, "dur":2790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697889991336629, "dur":3758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697889991340557, "dur":17086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1697889991357720, "dur":62385, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697889991296088, "dur":2428, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697889991298518, "dur":870, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697889991299388, "dur":4164, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697889991303565, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697889991304480, "dur":2150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1697889991306748, "dur":2179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1697889991308969, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nekx/Downloads/QuanTumGame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697889991309442, "dur":2074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697889991311595, "dur":3276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697889991314933, "dur":3286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697889991318277, "dur":2660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/Unity.Recorder.Base.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697889991320995, "dur":2799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697889991323851, "dur":2597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697889991326501, "dur":2541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697889991329125, "dur":2930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697889991332174, "dur":2832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697889991335063, "dur":3329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697889991338484, "dur":19466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1697889991357999, "dur":62117, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697889991296115, "dur":2406, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697889991298523, "dur":882, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697889991299405, "dur":4156, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697889991303565, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nekx/Downloads/QuanTumGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1697889991308658, "dur":1588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1697889991310405, "dur":2580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697889991313064, "dur":2179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697889991315304, "dur":3351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697889991318709, "dur":2552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697889991321305, "dur":2774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697889991324147, "dur":2550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697889991326749, "dur":2683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697889991329486, "dur":3212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697889991332759, "dur":2846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697889991335656, "dur":3521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697889991346633, "dur":64, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697889991339238, "dur":7471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1697889991346833, "dur":11291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1697889991358188, "dur":61933, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697889991296149, "dur":2378, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697889991298529, "dur":870, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697889991299399, "dur":4170, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697889991303578, "dur":138, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":6, "ts":1697889991303569, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nekx/Downloads/QuanTumGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1697889991306638, "dur":1836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1697889991308626, "dur":1466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1697889991310378, "dur":4432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697889991314853, "dur":3116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697889991318049, "dur":2950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697889991321053, "dur":2513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697889991323607, "dur":2544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697889991326210, "dur":2800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697889991329120, "dur":2926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697889991332093, "dur":2965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697889991335141, "dur":3395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697889991338593, "dur":15611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1697889991354282, "dur":65831, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697889991296171, "dur":2361, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697889991298535, "dur":859, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697889991299394, "dur":4165, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697889991303586, "dur":132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":7, "ts":1697889991303560, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nekx/Downloads/QuanTumGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1697889991307311, "dur":1703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1697889991309060, "dur":500, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":7, "ts":1697889991309059, "dur":502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe.exe" }}
+,{ "pid":12345, "tid":7, "ts":1697889991309575, "dur":2233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe.exe" }}
+,{ "pid":12345, "tid":7, "ts":1697889991311902, "dur":3093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697889991315036, "dur":3567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697889991318670, "dur":2762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697889991321502, "dur":2848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697889991324387, "dur":2755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697889991327205, "dur":2648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697889991329891, "dur":3163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697889991333092, "dur":2651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697889991335780, "dur":3352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697889991339207, "dur":7348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1697889991346636, "dur":69, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697889991346708, "dur":3247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1697889991350037, "dur":7837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1697889991357921, "dur":62179, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697889991296196, "dur":2343, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697889991298542, "dur":950, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697889991299493, "dur":4071, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697889991303564, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nekx/Downloads/QuanTumGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1697889991304954, "dur":1573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1697889991306571, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nekx/Downloads/QuanTumGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1697889991306736, "dur":2688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1697889991309905, "dur":3817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697889991313805, "dur":1986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697889991315867, "dur":3641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697889991319557, "dur":3078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697889991322696, "dur":2738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697889991325476, "dur":2661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697889991328177, "dur":2894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697889991331109, "dur":2903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697889991334064, "dur":3325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697889991337442, "dur":3154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697889991340712, "dur":11962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1697889991352773, "dur":637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1697889991353418, "dur":55, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697889991353486, "dur":5138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1697889991358680, "dur":61434, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697889991296219, "dur":2327, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697889991298549, "dur":914, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697889991299464, "dur":4091, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697889991303575, "dur":136, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1697889991303558, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nekx/Downloads/QuanTumGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1697889991305490, "dur":1362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1697889991307271, "dur":1617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1697889991308940, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nekx/Downloads/QuanTumGame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1697889991309415, "dur":1499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1697889991310992, "dur":3275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697889991314327, "dur":2591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697889991316972, "dur":2869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697889991319899, "dur":2880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697889991322834, "dur":2656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697889991325549, "dur":2621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697889991328209, "dur":2496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697889991330743, "dur":2794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697889991333597, "dur":2679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697889991336313, "dur":3653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697889991340462, "dur":5006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1697889991345999, "dur":11762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/level1.resS" }}
+,{ "pid":12345, "tid":9, "ts":1697889991357818, "dur":62307, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697889991296240, "dur":2311, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697889991298552, "dur":5006, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697889991303559, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nekx/Downloads/QuanTumGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1697889991304538, "dur":2503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1697889991307277, "dur":1682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1697889991309010, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697889991309008, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nekx/Downloads/QuanTumGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697889991309463, "dur":5229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697889991314752, "dur":3129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697889991317932, "dur":2302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/Unity.Recorder.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697889991320298, "dur":2761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697889991323122, "dur":2639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697889991325825, "dur":2660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697889991328543, "dur":2822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697889991331416, "dur":2782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697889991334235, "dur":3188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697889991337488, "dur":21188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697889991358719, "dur":61387, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697889991296263, "dur":2296, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697889991298559, "dur":4994, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697889991303576, "dur":149, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1697889991303560, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nekx/Downloads/QuanTumGame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1697889991309455, "dur":2512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1697889991312071, "dur":3565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697889991315736, "dur":3275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697889991319066, "dur":2646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697889991321752, "dur":2622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697889991324411, "dur":2590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697889991327049, "dur":2560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697889991329647, "dur":3022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697889991332732, "dur":2579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697889991335359, "dur":3444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697889991338916, "dur":2154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1697889991341193, "dur":16010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/level2.resS" }}
+,{ "pid":12345, "tid":11, "ts":1697889991357272, "dur":62832, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697889991296290, "dur":2273, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697889991298564, "dur":4992, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697889991303560, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nekx/Downloads/QuanTumGame/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1697889991305706, "dur":1228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1697889991307254, "dur":1548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1697889991308848, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nekx/Downloads/QuanTumGame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1697889991308910, "dur":1988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1697889991311007, "dur":2501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697889991313573, "dur":2322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697889991315959, "dur":3408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697889991319431, "dur":2802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697889991322306, "dur":2645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697889991325023, "dur":2705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697889991327767, "dur":2506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697889991330332, "dur":2929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697889991333312, "dur":2809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697889991336161, "dur":3558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697889991339786, "dur":5754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1697889991345693, "dur":3554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/level2" }}
+,{ "pid":12345, "tid":12, "ts":1697889991349340, "dur":3810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1697889991353251, "dur":5287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nekx/Downloads/QuanTumGame/QuantumCatastrophe_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1697889991358588, "dur":61530, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697889991424220, "dur":1127, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
